@@ -1,0 +1,43 @@
+body{
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+
+
+
+
+
+.Conversion{
+    margin-top: 1rem;
+    text-align: left;
+    background-color:rgb(0, 0, 44);
+    color: white;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.kwh{
+    font-size: small;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding-left: 5rem;
+    background-color: black;
+    padding-bottom: 0.01rem;
+}
+
+.carga{
+    margin-left:-50%;
+}
+
+.grafico{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
