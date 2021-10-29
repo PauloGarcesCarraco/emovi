@@ -33,6 +33,11 @@ footer{
     margin-left:-50%;
 }
 
+.titulo{
+    margin-top: 2rem;
+    text-align: center;
+}
+
 .grafico{
     margin-left: 10%;
     margin-right: 10%;

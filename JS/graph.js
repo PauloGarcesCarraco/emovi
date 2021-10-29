@@ -47,7 +47,7 @@ window.onload = function () {
             valueFormatString: "MMM YY"
         },
         axisY: {
-            title: "Numero de ventas mensuales",
+            title: "Unidades",
             titleFontColor: "#4F81BC",
             includeZero: true,
             suffix: ""
@@ -94,7 +94,41 @@ window.onload = function () {
             ]
         }]
     });
+    var chart = new CanvasJS.Chart("chartContainer3", {
+        animationEnabled: true,  
+        title:{
+            text: "Stock BEV+PHEV 2013-Presente"
+        },
+        axisY: {
+            title: "Unidades",
+            titleFontColor: "#4F81BC",
+            includeZero: true,
+            suffix: ""
+        },
+        data: [{
+            type: "splineArea",
+            color: "rgba(54,158,173,.7)",
+            markerSize: 5,
+            xValueFormatString: "YYYY",
+            yValueFormatString: "##0",
+            dataPoints: [
+                { x: new Date(2013, 0), y: 5},
+                { x: new Date(2014, 0), y: 14 },
+                { x: new Date(2015, 0), y: 46 },
+                { x: new Date(2016, 0), y: 68 },
+                { x: new Date(2017, 0), y: 205 },
+                { x: new Date(2018, 0), y: 402 },
+                { x: new Date(2019, 0), y: 704 },
+                { x: new Date(2020, 0), y: 904 },
+                { x: new Date(2021, 0), y: 1406 },
+            ]
+        }]
+        });
+
+
+
     chart.render1();
     chart.render2();
+    chart.render3();
     
     }
